@@ -1,0 +1,36 @@
+{
+  "experiment": "exp_2",
+  "seed": 42,
+  "sigma": 0.01,
+  "T_original": 1000,
+  "T_trimmed": 992,
+  "N_strategies": 8800,
+  "S": 16,
+  "pbo": 0.41686091686091686,
+  "n_combinations": 12870,
+  "oos_loss_prob": 0.40745920745920744,
+  "best_strategy": {
+    "strategy_index": 7260,
+    "entry_day": 19,
+    "holding_period": 4,
+    "stop_k": 1,
+    "side": -1,
+    "annualized_sharpe": 1.5355578946960773
+  },
+  "degradation": {
+    "alpha": 0.09825075407429312,
+    "beta": -0.6863488434402655,
+    "r_squared": 0.09234806426444708,
+    "pvalue_beta": 4.141457044490188e-273
+  },
+  "dominance": {
+    "selected_mean": 0.010126895759492374,
+    "selected_std": 0.04221008351303559,
+    "pooled_mean": 0.010126895759492374,
+    "pooled_std": 0.04221008351303559,
+    "selected_frac_positive": 0.5925407925407925,
+    "pooled_frac_positive": 0.5925407925407925,
+    "ks_stat": 0.0,
+    "ks_pvalue": 1.0
+  }
+}

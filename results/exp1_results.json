@@ -1,0 +1,31 @@
+{
+  "experiment": "exp_1",
+  "pbo": 0.25936285936285935,
+  "n_combinations": 12870,
+  "expected_n_combinations": 12870,
+  "combinations_match": true,
+  "pbo_equals_neg_logit_frac": true,
+  "oos_loss_prob": 0.16946386946386946,
+  "degradation": {
+    "alpha": 0.11696554622673737,
+    "beta": -0.5787818766540165,
+    "r_squared": 0.09325306657784949,
+    "pvalue_beta": 6.722880965113325e-276
+  },
+  "dominance": {
+    "selected_mean": 0.02730379837151557,
+    "selected_std": 0.03401368711038026,
+    "pooled_mean": 0.02730379837151557,
+    "pooled_std": 0.03401368711038026,
+    "selected_frac_positive": 0.8305361305361305,
+    "pooled_frac_positive": 0.8305361305361305,
+    "ks_stat": 0.0,
+    "ks_pvalue": 1.0
+  },
+  "T_original": 1000,
+  "T_trimmed": 992,
+  "block_size": 62,
+  "S": 16,
+  "N": 200,
+  "seed": 42
+}
